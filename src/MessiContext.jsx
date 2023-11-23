@@ -12,8 +12,8 @@ export const MessiContextProvider = ({ children }) => {
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
           viewBox="0 0 24 24"
-          strokeWidth={1.55}
-          className="w-6 h-6  group-hover:stroke-blue-300  stroke-blue-300"
+          strokeWidth={1.2}
+          className="w-6 h-6 svg group-hover:stroke-blue-300 stroke-slate-700"
         >
           <path
             strokeLinecap="round"
@@ -27,7 +27,7 @@ export const MessiContextProvider = ({ children }) => {
       name: "Highlights",
       svg: (
         <svg
-          className="w-6 h-6  group-hover:fill-blue-50  fill-slate-700"
+          className="w-6 h-6 svg group-hover:fill-blue-300  fill-slate-700"
           aria-hidden="true"
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 20 14"
@@ -47,8 +47,8 @@ export const MessiContextProvider = ({ children }) => {
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
           viewBox="0 0 24 24"
-          strokeWidth={1.55}
-          className="w-6 h-6  group-hover:stroke-blue-300  stroke-blue-300"
+          strokeWidth={1.2}
+          className="w-6 h-6 svg group-hover:stroke-blue-300  stroke-slate-700"
         >
           <path
             strokeLinecap="round"
@@ -65,8 +65,8 @@ export const MessiContextProvider = ({ children }) => {
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
           viewBox="0 0 24 24"
-          strokeWidth={1.55}
-          className="w-6 h-6  group-hover:stroke-blue-300  stroke-blue-300"
+          strokeWidth={1.2}
+          className="w-6 h-6 svg group-hover:stroke-blue-300  stroke-slate-700"
         >
           <path
             strokeLinecap="round"
@@ -83,8 +83,8 @@ export const MessiContextProvider = ({ children }) => {
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
           viewBox="0 0 24 24"
-          strokeWidth={1.55}
-          className="w-6 h-6  group-hover:stroke-blue-300  stroke-blue-300"
+          strokeWidth={1.2}
+          className="w-6 h-6 svg group-hover:stroke-blue-300  stroke-slate-700"
         >
           <path
             strokeLinecap="round"

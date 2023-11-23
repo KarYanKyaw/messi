@@ -17,6 +17,8 @@
 .active {
   @apply bg-slate-700;
 }
-.active-svg {
+
+
+.navBtn.active .svg {
   @apply stroke-blue-300;
 }
