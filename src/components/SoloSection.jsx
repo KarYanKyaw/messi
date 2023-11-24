@@ -3,6 +3,7 @@ import { useMessi } from "../MessiContext";
 import Slider from "react-slick";
 import TrophyCard from "./TrophyCard";
 import SoloAchievements from "./SoloAchievements";
+import ExploreBtn from "./ExploreBtn";
 
 const SoloSection = () => {
   const { personalAchievements } = useMessi();
@@ -28,7 +29,7 @@ const SoloSection = () => {
         },
       },
       {
-        breakpoint: 1024, // Convert md to pixels (and lg if you want the same)
+        breakpoint: 1024, 
         settings: {
           slidesToShow: 1,
           slidesToScroll: 2,
@@ -41,7 +42,7 @@ const SoloSection = () => {
   };
   return (
     <>
-      <div className="grid grid-cols-1 min-h-screen gap-5">
+      <div className="grid grid-cols-1  min-h-screen gap-5">
         <div className="col-span-full animate__animated animate__bounceInLeft animate__delay-1s">
           <SoloAchievements />
         </div>
@@ -56,6 +57,9 @@ const SoloSection = () => {
               />
             ))}
           </Slider>
+        </div>
+        <div className="py-3 flex justify-center items-center w-full text-center text-slate-900  font-base bg-slate-400">
+          All images copy right reserved to rightful owners.
         </div>
       </div>
     </>
