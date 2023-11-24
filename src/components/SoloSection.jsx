@@ -42,7 +42,7 @@ const SoloSection = () => {
   };
   return (
     <>
-      <div className="grid grid-cols-1  min-h-screen gap-5">
+      <div className="grid grid-cols-1  min-h-screen gap-3">
         <div className="col-span-full animate__animated animate__bounceInLeft animate__delay-1s">
           <SoloAchievements />
         </div>
