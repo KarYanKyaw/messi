@@ -76,28 +76,19 @@ export const MessiContextProvider = ({ children }) => {
         </svg>
       ),
     },
-    {
-      name: "Personal",
-      svg: (
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          fill="none"
-          viewBox="0 0 24 24"
-          strokeWidth={1.2}
-          className="w-6 h-6 svg group-hover:stroke-blue-300  stroke-slate-700"
-        >
-          <path
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z"
-          />
-        </svg>
-      ),
-    },
   ];
 
+  const statsData = [
+    { id: 1, type: "Matches Played", numbers: "789" },
+    { id: 2, type: "Goals Scored", numbers: "721" },
+    { id: 3, type: "Assists Provided", numbers: "344" },
+    { id: 4, type: "G/A Ratio", numbers: "2.096" },
+    { id: 5, type: "Minutes Per Goal", numbers: "101'" },
+    { id: 6, type: "Point Per Match", numbers: "2.24" },
+  ];
   const data = {
     navBtnData,
+    statsData,
   };
 
   return <MessiContext.Provider value={data}>{children}</MessiContext.Provider>;
