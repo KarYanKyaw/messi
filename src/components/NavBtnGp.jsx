@@ -9,7 +9,7 @@ const NavBtnGp = ({ type }) => {
     <>
       <div
         className={`flex ${
-          type === "achievements" ? "flex-row" : "flex-col md:flex-row"
+          type === "achievements" ? "flex-row" : "md:flex-col flex-row"
         }  gap-5 justify-between text-end md:items-end`}
       >
         {navBtnData.map(({ name, svg }) => {
