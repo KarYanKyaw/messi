@@ -58,7 +58,7 @@ const SoloSection = () => {
             ))}
           </Slider>
         </div>
-        <div className="py-3 flex justify-center items-center w-full text-center text-slate-900  font-base bg-slate-400">
+        <div className="py-2 text-xs flex justify-center items-center w-full text-center text-slate-900  font-base bg-slate-400">
           All images copy right reserved to rightful owners.
         </div>
       </div>
