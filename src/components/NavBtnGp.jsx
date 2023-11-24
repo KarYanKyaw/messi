@@ -2,12 +2,16 @@ import React from "react";
 import { NavLink, useLocation } from "react-router-dom";
 import { useMessi } from "../MessiContext";
 
-const NavBtnGp = () => {
+const NavBtnGp = ({ type }) => {
   const { navBtnData } = useMessi();
 
   return (
     <>
-      <div className="flex gap-5 md:flex-col justify-between text-end md:items-end">
+      <div
+        className={`flex ${
+          type === "achievements" ? "flex-row" : "flex-col"
+        }  gap-5 justify-between text-end md:items-end`}
+      >
         {navBtnData.map(({ name, svg }) => {
           return (
             <NavLink

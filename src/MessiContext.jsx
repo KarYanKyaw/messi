@@ -78,6 +78,138 @@ export const MessiContextProvider = ({ children }) => {
     },
   ];
 
+  const achievementsData = [
+    {
+      id: 1,
+      type: "World Cup",
+      times: "1 x",
+      img: "https://cloudfront-us-east-2.images.arcpublishing.com/reuters/TVO76CDW5VOCXOIYBW67B76BVY.jpg",
+    },
+    {
+      id: 2,
+      type: "UCL",
+      times: "4 x",
+      img: "https://pbs.twimg.com/media/EZGpmn3X0AAf3J_?format=jpg&name=4096x4096",
+    },
+    {
+      id: 3,
+      type: "COPA AMÉRICA WINNER",
+      times: "1 x",
+      img: "https://c.ndtvimg.com/2021-07/2bvd6h4o_lionel-messi-twitter-_625x300_11_July_21.jpg",
+    },
+    {
+      id: 4,
+      type: "FRENCH CHAMPION",
+      times: "2 x",
+      img: "https://www.psg.fr/media/232070/lyon-psg_22-messi.jpg?center=0.42792792792792794,0.49549549549549549&mode=crop&width=1200&height=675&quality=75",
+    },
+    {
+      id: 5,
+      type: "La Liga CHAMPION",
+      times: "10 x",
+      img: "https://i.pinimg.com/originals/63/18/8f/63188f4fb8d38a53eea2bac636e16a61.jpg",
+    },
+    {
+      id: 7,
+      type: " UEFA SUPERCUP WINNER",
+      times: "3 x",
+      img: "https://pbs.twimg.com/media/F3fCaxmWIAA4Qij?format=jpg&name=4096x4096",
+    },
+    {
+      id: 8,
+      type: "SPANISH CUP WINNER",
+      times: "7 x",
+      img: "https://pbs.twimg.com/media/CqS0-aKWAAALJNh.jpg",
+    },
+    {
+      id: 9,
+      type: "SPANISH SUPER CUP WINNER",
+      times: "8 x",
+      img: "https://guardian.ng/wp-content/uploads/2016/08/Barcelona-vs-sevilla-957x598.jpg",
+    },
+    {
+      id: 10,
+      type: "LEAGUES CUP WINNER",
+      times: "1 x",
+      img: "https://static1.straitstimes.com.sg/s3fs-public/styles/large30x20/public/articles/2023/08/20/10808877.jpg",
+    },
+    {
+      id: 11,
+      type: "UNDER-20 WORLD CUP CHAMPION",
+      times: "1 x",
+      img: "https://img.asmedia.epimg.net/resizer/VJNr1ZiCODNJFkvLCKEjHcTyvyY=/360x0/cloudfront-eu-central-1.images.arcpublishing.com/diarioas/5V5XNTAAZFJ6PHWBJW4U67AOYU.jpg",
+    },
+    {
+      id: 12,
+      type: "CONMEBOL-UEFA CUP OF CHAMPIONS WINNER",
+      times: "1 x",
+      img: "https://a1.espncdn.com/combiner/i?img=%2Fphoto%2F2022%2F0602%2Fr1020404_3_1296x729_16%2D9.jpg",
+    },
+    {
+      id: 13,
+      type: "FRENCH SUPER CUP WINNER",
+      times: "1 x",
+      img: "https://static.timesofisrael.com/www/uploads/2022/08/Untitled-16-1024x640.jpg",
+    },
+    {
+      id: 14,
+      type: "OLYMPIC MEDALIST",
+      times: "2 x",
+      img: "https://www.fcbarcelona.com/fcbarcelona/photo/2018/08/31/e6fa8848-5ac4-4fde-b209-512404b3449e/ZCrBqiNv.jpg",
+    },
+  ];
+
+  const personalAchievements = [
+    {
+      id: 1,
+      type: "Ballon d'Or",
+      times: "8 x",
+      img: "https://assets.goal.com/v3/assets/bltcc7a7ffd2fbf71f5/blt91a43661c2f552ce/60dbc3b08491e60f790c47df/4870379847f31e9141e7513c10261e511bcd32fc.jpg",
+    },
+    {
+      id: 2,
+      type: "FIFA World Player of the Year",
+      times: "3 x",
+      img: "https://s01.sgp1.cdn.digitaloceanspaces.com/article/180910-igywnfawdf-1665077222.jpeg",
+    },
+    {
+      id: 3,
+      type: "Golden Foot",
+      times: "1 x",
+      img: "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/ba137263-c0af-42ec-b953-ea17e9bc23e8/d5xc2lc-fa99598b-043a-47b3-8bc3-bfb977d20c44.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2JhMTM3MjYzLWMwYWYtNDJlYy1iOTUzLWVhMTdlOWJjMjNlOFwvZDV4YzJsYy1mYTk5NTk4Yi0wNDNhLTQ3YjMtOGJjMy1iZmI5NzdkMjBjNDQucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.QA_RaH1qewyb4rOS6rYRKIDpUPnU_fiteXJZemxNJI0",
+    },
+    {
+      id: 5,
+      type: "UEFA Best Player",
+      times: "3 x",
+      img: "https://idsb.tmgrup.com.tr/2015/08/27/GenelBuyuk/barcelonas-lionel-messi-poses-with-his-best-player-1440700966800_rs.jpg",
+    },
+    {
+      id: 6,
+      type: "Golden Boot",
+      times: "6 x",
+      img: "https://www.fcbarcelona.com/fcbarcelona/photo/2019/10/16/f052f24c-d67f-488c-8397-47eee5e5988d/mini_2019-10-16-MESSI-BOTA-19.JPG",
+    },
+    {
+      id: 7,
+      type: "La Liga Top Scorer",
+      times: "8 x",
+      img: "https://icdn.football-espana.net/wp-content/uploads/2020/12/Lionel-Messi-8-640x360.jpg",
+    },
+    {
+      id: 8,
+      type: "FIFA World Cup Best Player",
+      times: "2 x",
+      img: "https://www.japantimes.co.jp/uploads/imported_images/uploads/2023/01/np_file_204756.jpeg",
+    },
+    {
+      id: 4,
+      type: "UEFA Champions League Top Scorer",
+      times: "6 x",
+      img: "https://editorial.uefa.com/resources/0250-0c50f817cda8-048ef1014623-1000/1636243_w1.jpeg",
+    },
+  ];
+
   const statsData = [
     { id: 1, type: "Matches Played", numbers: "789" },
     { id: 2, type: "Goals Scored", numbers: "721" },
@@ -89,6 +221,8 @@ export const MessiContextProvider = ({ children }) => {
   const data = {
     navBtnData,
     statsData,
+    achievementsData,
+    personalAchievements,
   };
 
   return <MessiContext.Provider value={data}>{children}</MessiContext.Provider>;

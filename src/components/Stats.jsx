@@ -26,7 +26,7 @@ const Stats = () => {
               </div>
             </div>
             <div className=" col-span-full animate__delay-3s md:order-3 justify-around order-1 animate__animated animate__lightSpeedInRight md:col-span-1 ">
-              <NavBtnGp />
+              <NavBtnGp type={"inline"} />
             </div>
           </div>
         </div>

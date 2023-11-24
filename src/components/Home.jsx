@@ -16,7 +16,7 @@ const Home = () => {
               <HomeInfo />
             </div>
             <div className=" col-span-full animate__delay-2s md:order-3 justify-around order-1 animate__animated animate__lightSpeedInRight md:col-span-1 ">
-              <NavBtnGp />
+              <NavBtnGp type={"home"} />
             </div>
           </div>
         </div>

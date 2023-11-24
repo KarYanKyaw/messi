@@ -18,7 +18,14 @@
   @apply bg-slate-700;
 }
 
-
 .navBtn.active .svg {
   @apply stroke-blue-300;
+}
+
+.custom-prev-arrow {
+  left: 10px; /* Adjust as needed */
+}
+
+.custom-next-arrow {
+  right: 10px; /* Adjust as needed */
 }

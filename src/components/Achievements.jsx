@@ -1,16 +1,16 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import ClubSection from "./ClubSection";
+import SoloSection from "./SoloSection";
 
 const Achievements = () => {
   return (
-    <div className="flex min-h-screen justify-center items-center">
-      <Link
-        className="border border-red-600 hover:opacity-90 bg-red-600 text-slate-50 px-4 py-1"
-        to={"/"}
-      >
-        မပြီးသေးဘူး ဒီကိုနှိပ်ပြီး အိမ်ပြန်သွား
-      </Link>
-    </div>
+    <>
+      <div className=" home-hero gap-10 flex flex-col overflow-x-hidden py-6 px-10">
+        <ClubSection />
+        <hr class="border-t-1 pt-3 border-blue-900" />
+        <SoloSection />
+      </div>
+    </>
   );
 };
 
